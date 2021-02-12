@@ -2,7 +2,7 @@
 # Installs the base Apache package
 #
 class apache::install {
-  package { 'httpd':
+  package { 'apache2':
     ensure => 'present',
   }
 }
